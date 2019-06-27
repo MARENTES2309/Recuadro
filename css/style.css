@@ -7,6 +7,10 @@
     margin-top: 10px;
 }
 
+body{
+    background-color: aqua;
+}
+
 .grid{
     display: grid;
     grid-gap: 1px;
@@ -22,9 +26,10 @@
    text-align: center;
    border: 1px solid #cccccc;
    box-shadow: 1px 1px 6px #666;
+   background-color: rgb(22, 22, 136);
   }
 
-  .b1   {
+  .b1,.b2  {
     display: flex;
     align-content: center;
     justify-content: center;
