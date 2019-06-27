@@ -1,0 +1,35 @@
+.f1{
+    margin: 0 auto;
+    width: 37%;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    box-shadow: 1px 1px 6px #666;
+    margin-top: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns:repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+
+.c1{
+    width: 59px;
+    height: 60px;
+   display: block;
+   line-height: 60px;
+   text-align: center;
+   border: 1px solid #cccccc;
+   box-shadow: 1px 1px 6px #666;
+  }
+
+  .b1   {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: aqua;
+    background-color: black;
+    width: 60px;
+    margin-left: 650px;
+}
